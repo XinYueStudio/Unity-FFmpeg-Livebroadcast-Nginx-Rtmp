@@ -36,7 +36,7 @@ namespace FFmpegOut
                 + " -video_size " + width + "x" + height
                 + " -framerate " + frameRate
                 + " -loglevel warning -i - " + preset.GetOptions()
-                + " -vcodec libx264 -acodec copy -preset:v ultrafast -tune:v zerolatency -f flv rtmp://111.231.242.65:1935/live/home"
+                + " -vcodec libx264 -acodec copy -preset:v ultrafast -tune:v zerolatency -f flv rtmp://..." //add you rtmp server url
             //+ " \"" + outputPath + "\""
             );
         }
